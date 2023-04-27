@@ -1,0 +1,257 @@
+
+ body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    height: 100vh;
+
+}
+
+.form{
+    width: 300px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgb(204, 204, 204);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.formn1{
+
+    width: 350px;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 0 6px 16px rgb(252, 3, 3);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    flex-direction: column;
+}
+
+.form__input,
+.form__button {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.form__title{
+    text-align: center;
+    margin: 0 0 32px 0;
+    font-weight: normal;
+}
+
+.form__intrare{
+   text-align: center;
+    margin: 0 0 32px 0;
+    font-weight: normal; 
+}
+
+.form__group{
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.form__label{
+    position: absolute;
+
+    top: 0;
+    z-index: -1;
+    color: rgb(0, 0, 0);
+    transition: 0 3s;
+}
+
+.form__label1{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    color: rgb(0, 0, 0);
+    transition: 0 3s;
+}
+
+.form__label2{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    color: rgb(0, 0, 0);
+    transition: 0 3s;
+}
+
+
+.form__input{
+    width: 75%;
+    padding: 0 0 10px 0;
+    border:none;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+.form__input:focus{
+    border-bottom: 1px solid rgb(252, 0, 0);
+}
+
+
+.form__button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(250, 250, 250);
+    background-color: #0070f0;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form__button1{
+    padding:  5px 50px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(250, 250, 250);
+    background-color: rgba(0, 2, 3, 0.747);
+    outline: none;
+    cursor:pointer;
+    transition: 0.4s;
+    margin: 5px auto;
+}
+
+.form__button1:focus,
+.form__button1:hover{
+    background-color: #d40606;
+    background-color: rgb(255, 0, 0) ;
+    
+}
+
+.form__button:focus,
+.form__button:hover{
+    background-color: rgb(255, 0, 0) ;
+}
+
+
+.form__input:focus ~ .form__label,
+.form__input:not(:read-write) ~ .form__label  {
+    top: -15px;
+    font-size: 15px;
+    color: #e0e0e0;
+}
+
+.conf{
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px 40px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.form__vvsk{
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 40px 10px;
+    text-align: center;
+}
+
+
+
+.qazzaq{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background:0 0;
+    border:0;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    cursor:pointer;display:
+    block;font-weight:600;
+    padding:5px 9px;
+    text-align:center;
+    text-transform:inherit;
+    text-overflow:ellipsis;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    width:auto
+}
+
+
+
+.L3NKy, a.L3NKy, a.L3NKy:visited {
+    border-radius: 4px;
+    color: #fff;
+    color: rgba(var(--eca,255,255,255),1);
+    position: relative;
+}
+
+.y3zKF:not(.yWX7d), a.y3zKF:not(.yWX7d), a.y3zKF:not(.yWX7d):visited {
+    border: 1px;
+ background-color: solid transparent;
+    background-color: #0095f6;
+    background-color: rgba(var(--d69,0,149,246),1);
+}
+
+.form-g {
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    margin: 0 135px;
+    text-transform: uppercase;
+}
+
+
+
+  img {
+    animation: anim 10s infinite;
+    }
+
+    @keyframes anim{
+        0%{
+            filter: brightness(110%);
+        }
+        10%{
+            filter: brightness(130%);
+        }
+        30%{
+            filter: brightness(140%);
+        }
+        90%{
+            filter: brightness(50%);
+        }
+        90%{
+            filter: brightness(50%);
+        }
+        30%{
+            filter: brightness(140%);
+        }
+        10%{
+            filter: brightness(130%);
+        }
+        0%{
+            filter: brightness(110%);
+        }
+        
+
+
+    }
+
+
+    

@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  margin-top: 56px;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.MAR {
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #fff;
+  text-align: center;
+  padding: 15px 18px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: MediumSeaGreen;
+}
+
+.active {
+  background-color: MediumSeaGreen;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+section .main_welcome {
+  background: #000;
+  text-align: center;
+  padding: 36vh 0 0 0;
+  height: 60vh;
+}
+
+section .main_welcome p {
+  color: #999999;
+  font-size: 20px;
+}
+
+section .main_welcome h1 {
+  color: #fff;
+  font-size: 45px;
+}
+
+section .main_welcome span {
+  color: MediumSeaGreen;
+}
+
+section .main_welcome h1:after {
+  display: none;
+}
+
+section .main_carnivores {
+  color: #000;
+}
+
+.Bear {
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 50px;
+  padding-bottom: 50px;
+}
+
+section .main_carnivores h1 {
+  font-size: 30px;
+  text-align: center;
+  color: #4D0E39;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20;
+}
+
+.carnivores_left {
+  height: 100vh;
+}
+
+.carnivores_left img {
+  height: 50vh;
+}
+
+.carnivores_rigth h1 {
+  font-size: 35px;
+}
+
+.main_home p {
+  padding-top: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.Hedgehog {
+  padding: 35px 0;
+  background-color: #fff;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 50px;
+  line-height: 43px;
+}
+
+.Hedgehog img {
+  height: 30vh;
+}
+
+.contact_from {
+  padding: 100px 0 100px 0;
+}
+
+.contact_from h1 {
+  text-align: center;
+}
+
+.contact_from p:first-of-type {
+  padding-bottom: 20px;
+}
+
+.contact_wrapper {
+  width: 45%;
+  margin: 0 auto;
+  color: #636363;
+}
+
+.main_Rodents {
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.main_Rodents h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  padding: 40px;
+  border-bottom: 3px solid #fff;
+}
+
+.container_Rodents {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 150px 0 0 0;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.container_Rodents img {
+  width: 35%;
+  border-radius: 20%;
+  border: 1px solid MediumSeaGreen;
+}
+
+.container_Rodents p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.container_Rodents div {
+  margin: 20px;
+  padding: auto 20px;
+}
+
+.main_gallery {
+  color: black;
+}
+
+.main_gallery h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 45px;
+  border-bottom: 2px solid black;
+
+}
+
+.gallery_content img {
+  width: 18vw;
+  border: 15px solid #fff;
+}
+
+.gallery_content img:hover {
+  opacity: 0.5;
+  background-color: ;
+}
+
+.img1 {
+  background-image: url("img/cosmic-wolf-tlx-prints.jpg");
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background: #222222;
+  padding: 30px 0 30px 0;
+  font-size: 50px;
+}
+
+.social i {
+  padding: 0 20px;
+  color: #fff;
+}
+
+.social i:hover {
+  color: MediumSeaGreen;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social img {
+  margin-left: 20px;
+  border-radius: 50%;
+}
